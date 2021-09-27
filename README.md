@@ -64,7 +64,7 @@
         # fio --filename=/dev/sdb --rw=write --ioengine=libaio --bs=4k --rwmixread=100 --iodepth=16 --numjobs=6 --runtime=6 --group_reporting --size=40mb --name=4ktest
         ```
     - ![](https://i.imgur.com/3iuWSkq.png)
-    - the limitation eases some resource drain. But the sequential write speed still drop to 1000MB/s compare to normal condiction is 1700MB/s
+    - the limitation eases some resource drain. But the sequential write speed still drop to 900MB/s compare to normal condiction is 1700MB/s
  
  4. Adding more resources constraints on the sync_loop container
     - 4-1: Run another sync_loop container
